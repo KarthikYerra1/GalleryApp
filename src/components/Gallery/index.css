@@ -1,0 +1,55 @@
+.bg-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-container {
+  width: 90%;
+  margin-top: 30px;
+}
+
+.show-image {
+  height: 40%;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .show-image {
+    height: 75vh;
+    width: 95%;
+  }
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 18px;
+  }
+}
+
+.thumbnails-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}

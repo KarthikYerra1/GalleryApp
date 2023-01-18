@@ -1,0 +1,18 @@
+.thumbnail-image {
+  list-style-type: none;
+}
+
+.btn {
+  background-color: #fff;
+  height: 70px;
+  background-size: cover;
+  border-style: none;
+}
+
+.non-active-btn {
+  opacity: 0.5;
+}
+
+.thumbnail {
+  height: 60px;
+}
